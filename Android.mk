@@ -56,10 +56,8 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     glide \
     airbnb-lottie \
     expandablebottombar \
-    kotlin-stdlib
-
-LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
-    packages/apps/ColtCenter/res
+    kotlin-stdlib \
+    faceunlock_utils
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
